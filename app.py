@@ -14,7 +14,7 @@ def read_root():
     return {"Hello": "Universe"}
 
     
-model_filename = "/Users/kushalsharma/Desktop/Uploading render FYP/new_svm_with_grid_search.joblib"
+model_filename = "/Users/kushalsharma/Desktop/Uploading render FYP/render_svm_with_grid_search.joblib"
 loaded_pipeline = joblib.load(model_filename)
 
 @app.get("/Predict")
